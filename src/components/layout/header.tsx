@@ -6,7 +6,7 @@ export function Header() {
         <header className="sticky top-0 z-50 w-full border-b border-gray-100 bg-white/80 backdrop-blur-md">
             <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
                 <Link href="/" className="flex items-center gap-2">
-                    <Image src="/QuMagie.svg" alt="QuMagie Logo" width={32} height={32} className="h-8 w-8" />
+                    <Image src="QuMagie.svg" alt="QuMagie Logo" width={32} height={32} className="h-8 w-8" />
                     <span className="text-xl font-bold tracking-tight text-slate-900">QuMagie</span>
                 </Link>
 
