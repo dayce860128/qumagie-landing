@@ -25,12 +25,12 @@ export function FeatureSemantic() {
                             {/* Grid Result - Realistic Images */}
                             <div className="p-6 grid grid-cols-3 gap-3 overflow-hidden flex-1 bg-slate-50/50">
                                 {[
-                                    { src: "/images/demo/cat-1.png", alt: "Tabby cat eating" },
-                                    { src: "/images/demo/cat-2.png", alt: "Ginger cat eating" },
-                                    { src: "/images/demo/cat-3.png", alt: "Calico cat eating", match: true },
-                                    { src: "/images/demo/cat-4.png", alt: "Tuxedo cat eating" },
-                                    { src: "/images/demo/cat-1.png", alt: "Tabby cat eating" },
-                                    { src: "/images/demo/cat-2.png", alt: "Ginger cat eating" },
+                                    { src: "images/demo/cat-1.png", alt: "Tabby cat eating" },
+                                    { src: "images/demo/cat-2.png", alt: "Ginger cat eating" },
+                                    { src: "images/demo/cat-3.png", alt: "Calico cat eating", match: true },
+                                    { src: "images/demo/cat-4.png", alt: "Tuxedo cat eating" },
+                                    { src: "images/demo/cat-1.png", alt: "Tabby cat eating" },
+                                    { src: "images/demo/cat-2.png", alt: "Ginger cat eating" },
                                 ].map((photo, i) => (
                                     <div key={i} className={`aspect-square rounded-xl relative overflow-hidden group transition-all duration-300 ${photo.match ? 'ring-2 ring-purple-500 shadow-md transform scale-[1.02] z-10' : 'hover:opacity-90'}`}>
                                         <img
