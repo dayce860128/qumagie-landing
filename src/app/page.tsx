@@ -1,21 +1,17 @@
-import Hero from "@/components/Hero";
-import UseCases from "@/components/UseCases";
-import AIFeatures from "@/components/AIFeatures";
-import Mobile from "@/components/Mobile";
-import Requirements from "@/components/Requirements";
-import FAQ from "@/components/FAQ";
-import CTA from "@/components/CTA";
+import { Hero } from "@/components/home/hero";
+import { FeatureOCR } from "@/components/home/feature-ocr";
+import { FeatureSemantic } from "@/components/home/feature-semantic";
+import { FeatureVideo } from "@/components/home/feature-video";
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
+    <div className="flex flex-col min-h-screen">
       <Hero />
-      <UseCases />
-      <AIFeatures />
-      <Mobile />
-      <Requirements />
-      <FAQ />
-      <CTA />
-    </main>
+      <div id="features" className="scroll-mt-16">
+        <FeatureOCR />
+        <FeatureSemantic />
+        <FeatureVideo />
+      </div>
+    </div>
   );
 }
