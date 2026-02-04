@@ -1,0 +1,29 @@
+{
+    "hero": {
+        "title": "QuMagie：AI 驅動的照片管理",
+        "subtitle": "為您的回憶提供智慧相簿、人臉識別和物件偵測。",
+        "cta": "立即開始"
+    },
+    "useCases": {
+        "title": "使用案例",
+        "items": []
+    },
+    "aiFeatures": {
+        "title": "AI 功能",
+        "items": []
+    },
+    "mobile": {
+        "title": "行動應用程式",
+        "description": "隨時隨地存取您的照片。"
+    },
+    "requirements": {
+        "title": "系統需求"
+    },
+    "faq": {
+        "title": "常見問題"
+    },
+    "cta": {
+        "title": "準備好嘗試 QuMagie 了嗎？",
+        "button": "立即下載"
+    }
+}

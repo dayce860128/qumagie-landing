@@ -1,0 +1,29 @@
+{
+    "hero": {
+        "title": "QuMagie: AI-Powered Photo Management",
+        "subtitle": "Smart albums, face recognition, and object detection for your memories.",
+        "cta": "Get Started"
+    },
+    "useCases": {
+        "title": "Use Cases",
+        "items": []
+    },
+    "aiFeatures": {
+        "title": "AI Features",
+        "items": []
+    },
+    "mobile": {
+        "title": "Mobile App",
+        "description": "Access your photos anywhere."
+    },
+    "requirements": {
+        "title": "System Requirements"
+    },
+    "faq": {
+        "title": "FAQ"
+    },
+    "cta": {
+        "title": "Ready to try QuMagie?",
+        "button": "Download Now"
+    }
+}
