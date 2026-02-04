@@ -24,7 +24,7 @@ export function FeatureVideo() {
                         {/* Video Content (Simulated) */}
                         <div className="absolute inset-0">
                             <img
-                                src="/images/demo/video-face.png"
+                                src="images/demo/video-face.png"
                                 alt="Video content child smiling"
                                 className="w-full h-full object-cover opacity-90 group-hover:scale-105 transition-transform duration-700"
                             />
